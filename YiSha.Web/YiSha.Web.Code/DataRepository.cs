@@ -16,7 +16,7 @@ namespace YiSha.Web.Code
         {
             if (!SecurityHelper.IsSafeSqlParam(token))
             {
-                return null;//加了一个注释
+                return null;//加了一个注释//
             }
             token = token.ParseToString().Trim();
 
